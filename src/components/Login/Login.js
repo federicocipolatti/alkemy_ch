@@ -1,3 +1,5 @@
+import "./Login.css"
+
 export const Login = () => {
 
     const submitHandler = e => {
@@ -29,7 +31,7 @@ export const Login = () => {
     }
 
     return(
-        <form onSubmit={submitHandler}>
+        <form onSubmit={submitHandler} className="login">
             <label>
                 <span>Correo electrónico: </span>
                 <br/>
